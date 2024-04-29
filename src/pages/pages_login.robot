@@ -1,0 +1,20 @@
+*** Variables ***
+
+&{PREENCHER}
+...    select_escolha_sobremesa=//div[@class='MocG8c HZ3kWc mhLiyf LMgvRb KKjvXb DEh1R'][contains(.,'Escolher')]
+...    input_seu_nome=//div[@class='rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd']//input[@type='text'][@aria-labelledby='i1'][@aria-describedby='i2 i3']
+...    input_quantas_pessoas_comparecerao=//div[@class='rFrNMe k3kHxc RdH0ib yqQS1 ccuQue zKHdkd']//input[@type='text'][@aria-labelledby='i19'][@aria-describedby='i20 i21']
+...    input_alergia_restricao_alimentar=//div[@class='rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd']//input[@type='text'][@aria-labelledby='i46'][@aria-describedby='i47 i48']
+...    input_qual_endereco_email=//div[@class='rFrNMe k3kHxc RdH0ib yqQS1 Z02LAf zKHdkd']//input[@type='email'][@aria-labelledby='i50'][@aria-describedby='i51 i52']
+...    radio_sim_participarei=//div[@id='i13']
+...    radio_nao_participarei=//div[@id='i16']
+...    btn_enviar=//div[@class='lRwqcd']//div[@role='button']
+...    btn_limpar_secao=//div[@class='Jwjdfe']//div[@role='button']
+...    btn_limpar_formulario=//div[@class='nYdzXd']//div[@role='button']
+...    btn_confirmar_limpeza_formulario=//div[@class='OE6hId J9fJmf']//div[@data-id='EBS5u']
+...    btn_cancelar_limpeza_formulario=//div[@class='OE6hId J9fJmf']//div[@data-id='IbE0S']
+...    validacao_envio_com_sucesso=//div[contains(@class,'vHW8K')]
+...    validacao_participacao_sim_limpa=//div[@id='i13'][@aria-checked='false']
+...    validacao_participacao_nao_limpa=//div[@id='i16'][@aria-checked='false']
+...    validacao_confirmacao_limpar_formulario=//div[@class='OE6hId J9fJmf']
+...    validacao_formulario_limpo=//div[@class='N0gd6']//div[contains(.,'Convite para festa')]
