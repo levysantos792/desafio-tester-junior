@@ -50,7 +50,7 @@ Cenario 07 - [Envio com comparecimento de] - <= 10 pessoas
     Quando clicar em enviar
     Então o formulario deve ser enviado com sucesso
     
-Cenario 08 - [Envio com comparecimento de] - mais de 10 pessoas
+Cenario 08 - [Envio com comparecimento de] - > 10 pessoas
     [tags]  formulario_008
     Dado que o numero de pessoas que comparecerao a festa seja    20
     Quando clicar em enviar
