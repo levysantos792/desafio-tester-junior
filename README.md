@@ -6,9 +6,11 @@ Este projeto contém uma série de testes de aceitação escritos em Gherkin par
 
 ## Execução do Teste
 
-Para executar cenário indiviuais, execute o seguinte comando: robot -d results/logs -i formulario_001 . (Para o cenário 01). Podendo executar varios cenário ao mesmo tempo incluindo masi tags, como por exemplo: robot -d results/logs -i formulario_024 -i formulario_025 . 
-Para excutar a suite de teste, execute o seguinte comando: robot -d results/logs -i formulario_024 -i formulario .
-Assim direcionamos para a pasta results/log as evidencias criadas de cada executção
+Para executar cenários individuais, utilize o seguinte comando: robot -d results/logs -i formulario_001 (para o cenário 01). Você pode executar vários cenários simultaneamente, incluindo mais tags, como por exemplo: robot -d results/logs -i formulario_024 -i formulario_025.
+
+Para executar a suíte de testes, utilize o seguinte comando: robot -d results/logs -i formulario.
+
+Dessa forma, as evidências de cada execução serão direcionadas para a pasta results/logs.
 
 ## Documentação
 Para acessar documentação, acesse o link: https://docs.google.com/spreadsheets/d/12F4R3tbzUdaaiPO-IRK13LXJNN0--nYn/edit?usp=drive_link&ouid=101386916471990020503&rtpof=true&sd=true
